@@ -24,7 +24,7 @@ public class NewTask {
 		Connection connection = factory.newConnection();
 		Channel channel = connection.createChannel();
 		channel.queueDeclare(TASK_QUEUE_NAME, true, false, false, null);
-//		·Ö·¢ÏûÏ¢
+//		äº§ç”Ÿ5ä¸ªæ¶ˆæ¯
 		for(int i = 0 ; i < 5; i++){
 			String message = "Hello World! " + i;
 			channel.basicPublish("", TASK_QUEUE_NAME, MessageProperties.PERSISTENT_TEXT_PLAIN, message.getBytes());

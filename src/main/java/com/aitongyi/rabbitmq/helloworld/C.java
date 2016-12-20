@@ -8,7 +8,7 @@ import com.rabbitmq.client.*;
 import java.io.IOException;
 
 /**
- * 消息消费者
+ * 锟斤拷息锟斤拷锟斤拷锟斤拷
  * 
  * @author hushuang
  * 
